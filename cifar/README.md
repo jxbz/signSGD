@@ -10,20 +10,20 @@ Data is split {45k/5k/10k} {train/val/test}.
 
 The outcomes of the grid search were:
 
-sgd
-best lr 1
-best wd 0.001
-best mom 0.0
-best val 0.916786858974
+sgd;<br>
+best lr 1;<br>
+best wd 0.001;<br>
+best mom 0.0;<br>
+best val 0.916786858974;<br>
 
-signum
-best lr 0.001
-best wd 0.1
-best mom 0.0
-best val 0.911578525641
+signum;<br>
+best lr 0.001;<br>
+best wd 0.1;<br>
+best mom 0.0;<br>
+best val 0.911578525641;<br>
 
-adam
-best lr 0.01
-best wd 1e-05
-best mom 0.5
-best val 0.915544871795
+adam;<br>
+best lr 0.01;<br>
+best wd 1e-05;<br>
+best mom 0.5;<br>
+best val 0.915544871795;<br>
