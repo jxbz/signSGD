@@ -5,4 +5,4 @@ It will call cifarTrainer.py which makes use of the Welford algorithm contained 
 
 The Welford algorithm is just an online algorithm for computing mean and variance. I.e. it only needs a single pass through to the data to compute these statistics, which saves time when your dataset is large.
 
-In the Welford algorithm loops we also add a few lines of code that collect gradient samples for a randomly chosen "special parameter". This is for the purpose of plotting histograms of the stochastic gradient noise, and has nothing to do with the Welford algorithm.
+In the Welford algorithm loop we also add a few lines of code that collect gradient samples for a randomly chosen "special parameter". This is for the purpose of plotting histograms of the stochastic gradient noise, and has nothing to do with the Welford algorithm.
