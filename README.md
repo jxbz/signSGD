@@ -17,3 +17,7 @@ There are four folders:
 4. toy_problem/ -- simple example where signSGD is more robust than SGD.
 
 More info to be found within each folder.
+
+***
+
+Any questions / comments? Don't hesisate to get in touch: <a href="mailto:bernstein@caltech.edu">bernstein@caltech.edu</a>.
