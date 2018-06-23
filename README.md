@@ -20,4 +20,4 @@ More info to be found within each folder.
 
 ***
 
-Any questions / comments? Don't hesisate to get in touch: <a href="mailto:bernstein@caltech.edu">bernstein@caltech.edu</a>.
+Any questions / comments? Don't hesitate to get in touch: <a href="mailto:bernstein@caltech.edu">bernstein@caltech.edu</a>.
