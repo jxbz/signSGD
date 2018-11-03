@@ -7,3 +7,6 @@ For these experiments we did not tune momentum. Instead we set it to 0.9 for all
 signum,    lr=0.0001,		wd=0.00001;<br>
 sgd,       lr=0.1,		  wd=0.0001;<br>
 adam,      lr=0.001,		wd=0.00001;<br>
+
+To train with signum, for example, run this command: 
+python train_resnet.py --optim signum --lr 0.0001 --wd 0.00001
