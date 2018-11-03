@@ -8,5 +8,5 @@ signum,    lr=0.0001,		wd=0.00001;<br>
 sgd,       lr=0.1,		  wd=0.0001;<br>
 adam,      lr=0.001,		wd=0.00001;<br>
 
-To train with signum, for example, run this command: 
-python train_resnet.py --optim signum --lr 0.0001 --wd 0.00001
+To train with signum, for example, run:<br> 
+`python train_resnet.py --optim signum --lr 0.0001 --wd 0.00001`
