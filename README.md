@@ -9,6 +9,12 @@ Here I house mxnet code for the signSGD paper. Some links:
 
 ***
 
+General instructions:
+- to use Signum in this codebase, we pass in the optim 'signum' as a command line argument. Signum is implemented in mxnet!
+- if you do not use our suggested hyperparameters, be careful to tune them yourself. Signum hyperparameters are typically similar to Adam hyperparameters, not SGD!
+
+***
+
 There are four folders:
 
 1. cifar/ -- code to train resnet-20 on Cifar-10.
