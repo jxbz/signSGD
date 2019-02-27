@@ -2,7 +2,7 @@
 
 <img src="https://jeremybernste.in/publications/signum/norms.png" width="120" align="right"></img>
 
-Here I house mxnet code for the signSGD paper. Some links:
+Here I house mxnet code for the original signSGD paper (ICML-18). I've put the code here to facilitate reproducing the results in the paper, and this code isn't intended for development purposes. In particular, this implementation does not exploit any compression properties. Some links:
 - [arxiv version of the paper](https://arxiv.org/abs/1802.04434).
 - more information about the paper on [my personal website](https://jeremybernste.in/publications/).
 - my coauthors: [Yu-Xiang Wang](https://www.cs.cmu.edu/~yuxiangw/), [Kamyar Azizzadenesheli](https://sites.google.com/uci.edu/kamyar), [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/).
@@ -10,8 +10,7 @@ Here I house mxnet code for the signSGD paper. Some links:
 ***
 
 General instructions:
-- Signum is implemented as an official optimiser in mxnet!
-- to use Signum in this codebase, we pass in the optim 'signum' as a command line argument.
+- Signum is implemented as an official optimiser in mxnet, so to use Signum in this codebase, we pass in the string 'signum' as a command line argument.
 - if you do not use our suggested hyperparameters, be careful to tune them yourself. 
 - Signum hyperparameters are typically similar to Adam hyperparameters, not SGD!
 
