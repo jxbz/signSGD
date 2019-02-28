@@ -2,7 +2,7 @@
 
 <img src="https://jeremybernste.in/publications/signum/norms.png" width="120" align="right"></img>
 
-Here I house mxnet code for the original signSGD paper (ICML-18). I've put the code here to facilitate reproducing the results in the paper, and this code isn't intended for development purposes. In particular, this implementation does not exploit any compression properties. Some links:
+Here I house mxnet code for the original signSGD paper (ICML-18). I've put the code here to facilitate reproducing the results in the paper, and this code isn't intended for development purposes. In particular, this implementation does not gain any speedups from compression. Some links:
 - [arxiv version of the paper](https://arxiv.org/abs/1802.04434).
 - more information about the paper on [my personal website](https://jeremybernste.in/publications/).
 - my coauthors: [Yu-Xiang Wang](https://www.cs.cmu.edu/~yuxiangw/), [Kamyar Azizzadenesheli](https://sites.google.com/uci.edu/kamyar), [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/).
