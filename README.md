@@ -7,6 +7,8 @@ Here I house mxnet code for the original signSGD paper (ICML-18). I've put the c
 - more information about the paper on [my personal website](https://jeremybernste.in/publications/).
 - my coauthors: [Yu-Xiang Wang](https://www.cs.cmu.edu/~yuxiangw/), [Kamyar Azizzadenesheli](https://sites.google.com/uci.edu/kamyar), [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/).
 
+**[Update Jan 2021]** As noted in [this issue](https://github.com/jxbz/signSGD/issues/1), this codebase used an implementation of the sign function that maps `sign(0) --> 0`. A test in [this notebook](https://github.com/jxbz/signSGD/blob/master/signSGD_zeros.ipynb) suggests there may be little difference to an implementation that maps `sign(0) --> ±1` at random. In the [codebase](https://github.com/jiaweizzhao/signSGD-with-Majority-Vote) for the [ICLR 2019 paper](https://arxiv.org/abs/1810.05291), we used an implementation that maps `sign(0) --> +1` deterministically.
+
 ***
 
 General instructions:
